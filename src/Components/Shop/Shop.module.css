@@ -1,0 +1,62 @@
+.shopContainer{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.shopContainer .shop{
+    min-height: 300px;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 10px;
+}
+.shopContainer .shop img{
+    height: 50%;
+    width: 100%;
+    
+}
+.shopContainer .shop p{
+    margin: 2px;
+    text-align: center;
+}
+.shopContainer .shop b{
+    margin: 5px;
+    
+}
+.crossedOut{
+    text-decoration: line-through;
+    color: #9E9E9E;
+}
+.btnDiv{
+    display: flex;
+    padding-top: 20px;
+}
+.shopContainer .shop .buy{
+    width: 85px;
+    height: 30px;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-left: auto;
+    color: #fff;
+    background-color: #b71c1c;
+    border: none;
+    cursor: pointer;
+}
+
+.shopContainer .shop .chat{
+    width: 65px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 20px;
+    color:#fff;
+    background-color: #212121;
+    border: none;
+    cursor: pointer;
+}

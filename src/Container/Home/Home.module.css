@@ -1,0 +1,20 @@
+.productDiv{
+    height: 600px;
+    width: 96%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+    padding: 20px;
+}
+
+.shops{
+    margin-top:20px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    min-height: 30vh;
+    background-color: #F5F5F5;
+}

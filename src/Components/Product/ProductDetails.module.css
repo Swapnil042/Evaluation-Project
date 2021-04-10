@@ -1,0 +1,44 @@
+.productDetails{
+    height: 100%;
+    width: 50%;
+    margin-left:50px;
+}
+.productName{
+    margin-top: 0;
+}
+.sizeLabel{
+    margin-left: 40px;
+}
+.sku{
+    margin-bottom: 0;
+    font-weight: bold;
+    color:  rgba(0, 0, 0, .5);
+}
+.brand{
+    margin-top: 5px;
+    font-weight: bold;
+    color:  rgba(0, 0, 0, .5);
+}
+.variant{
+    font-weight: bold;
+    color:  rgba(0, 0, 0, .5);
+}
+.price{
+    margin: 0;
+    margin-top: 40px;
+}
+.startingPrice{
+    margin: 0;
+    color:  rgba(0, 0, 0, .4);
+}
+hr{
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom:20px;
+}
+.phone{
+    margin: 0;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
